@@ -28,7 +28,22 @@ firstname text,
 SELECT * 
 FROM professors
 ```
+- Create a table universities with three text columns: university_shortname, university, and university_city.
+
+```
+-- Create a table for the universities entity type
+
+
+Create Table universities(
+    university_shortname text,
+    universities text,
+    university_city text
+);
 
 
 
+-- Print the contents of this table
+SELECT * 
+FROM universities
+```
 

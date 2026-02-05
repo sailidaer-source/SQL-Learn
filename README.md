@@ -5,3 +5,6 @@ Learning journal
 <img width="225" height="193" alt="image" src="https://github.com/user-attachments/assets/83636c95-9a67-4171-a920-5e25716b4736" />
 2
 <img width="225" height="193" alt="image" src="https://github.com/user-attachments/assets/c38f3546-6913-4cd3-9f6e-94181b9b3459" />
+\n
+123\n
+123

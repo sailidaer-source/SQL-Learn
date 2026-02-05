@@ -2,10 +2,10 @@
 ## What is the Information Schema?
 The Information Schema is a SQL standard system database/view built into most relational database management systems (RDBMS) like MySQL,  SQL Server, PostgreSQL, and SQLite. It stores metadata—data about the database itself, such as:
 - Names of databases, tables, and columns
-Data types of columns
-Table/column permissions
-Constraints
-Indexes and table relationships
+- Data types of columns
+- Table/column permissions
+- Constraints
+- Indexes and table relationships
 
 ### Use Information Schema to Count Columns in table
 ```

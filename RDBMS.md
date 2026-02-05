@@ -7,10 +7,10 @@ The Information Schema is a SQL standard system database/view built into most re
 - Constraints
 - Indexes and table relationships
 
-### Use Information Schema to Count Columns in table
+### Use Information Schema to Count Columns in table/columns
 ```
 SELECT COUNT(*) AS column_count
-FROM information_schema.COLUMNS
+FROM information_schema.TABLES/COLUMNS
 WHERE table_schema = 'your_database_name'  -- Name of your database
   AND table_name = 'your_table_name';      -- Name of your table
 ```

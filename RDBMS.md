@@ -60,3 +60,5 @@ ADD COLUMN university_shortname text;
 SELECT * 
 FROM professors
 ```
+
+

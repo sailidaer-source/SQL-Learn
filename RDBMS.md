@@ -60,5 +60,60 @@ ADD COLUMN university_shortname text;
 SELECT * 
 FROM professors
 ```
+### RENAME and DROP COLUMNs 
+- Rename the organisation column to organization in affiliations.
+
+```
+-- Rename the organisation column
+ALTER TABLE affiliations
+RENAME column organisation TO organization;
+```
+
+- Delete the university_shortname column in affiliations.
+
+```
+-- Delete the university_shortname column
+Alter TABLE affiliations
+DROP COLUMN university_shortname;
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

@@ -77,12 +77,42 @@ Alter TABLE affiliations
 DROP COLUMN university_shortname;
 ```
 
+### Migrate data with INSERT INTO SELECT DISTINCT
 
+- Insert all DISTINCT professors from university_professors into professors. Print all the rows in professors.
 
+```
+-- Insert unique professors into the new table
+INSERT INTO professors 
+SELECT DISTINCT firstname, lastname, university_shortname 
+FROM university_professors;
 
+-- Doublecheck the contents of professors
+SELECT * 
+FROM professors;
+```
 
+- Insert all DISTINCT affiliations into affiliations from university_professors.
 
+```
+-- Insert unique affiliations into the new table
+INSERT INTO affiliations 
+Select distinct firstname, lastname, function, organization 
+FROM university_professors;
 
+-- Doublecheck the contents of affiliations
+SELECT * 
+FROM affiliations;
+```
+
+### Delete tables with DROP TABLE
+
+- Delete the university_professors table.
+
+```
+-- Delete the university_professors table
+DROP Table university_professors;
+```
 
 
 

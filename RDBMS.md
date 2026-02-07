@@ -5,9 +5,9 @@ The Information Schema is a SQL standard system database/view built into most re
 - Data types of columns
 - Table/column permissions
 - Constraints
-- Indexes and table relationships
+- Indexes and table relationshipss
 
-### Use Information Schema to Count Columns in table
+### Use Information Schema to Count Columns in table 
 ```
 SELECT COUNT(*) AS column_count
 FROM information_schema.COLUMNS
